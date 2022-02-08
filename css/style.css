@@ -10,9 +10,8 @@
   box-shadow: 7px 15px 34px 10px rgba(0, 10, 0, 10.68),
     inset -3px -10px 15px 0.1px #89848e;
   transform: rotate(5deg);
-  background-image:;
-  url(https://source.unsplash.com/dUV3oohJzE8/1900x700);
- 
+  background-image: url(https://source.unsplash.com/dUV3oohJzE8/1900x700);
+
   background-color: #efefef;
   cursor: pointer;
 }
