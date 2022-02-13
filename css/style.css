@@ -17,8 +17,6 @@
 body {
   border: 4px solid;
   height: 950px;
-  /* background-image: url(/Users/angelomilien/Development/code/Flatiron/angelo_folders/Calculator/image); */
-  /* color: red; */
 }
 
 #title {
@@ -75,7 +73,7 @@ body {
   /* height: 35%; */
 }
 
-.nums button {
+.nums .num {
   background-color: #d1d1d1;
 }
 
@@ -105,6 +103,12 @@ button {
 .equal {
   background-color: #54bab9;
   height: 73.15%;
+  border: none;
+}
+
+.equal:active {
+  border: 2px solid #908b85;
+  border-radius: 2px;
 }
 
 /* button,
