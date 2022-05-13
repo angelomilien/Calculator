@@ -11,6 +11,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,13 +20,9 @@
     />
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="#">upgrade your browser</a> to improve your experience.
-      </p>
-    <![endif]-->
-    <div class="container">
+    <div id="switch" class="text-center">Align</div>
+
+    <div class="container draggable">
       <div id="calculator" class="">
         <!-- TITLE -->
         <div id="title" class="text-center">
@@ -34,9 +31,9 @@
 
         <!-- SCREEN -->
         <div id="entrybox" class="text-end">
-          <div id="history" class="screen">455dsadssfsfsfs</div>
+          <div id="history" class="screen">0</div>
 
-          <div id="entry" class="screen">656sdsf</div>
+          <div id="entry" class="screen"></div>
         </div>
 
         <!-- BUTTONS -->

@@ -111,6 +111,15 @@ button {
   border-radius: 2px;
 }
 
+#switch {
+  color: #709000;
+  margin-top: 80px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
+
 /* button,
 button:hover,
 button:active,
@@ -136,7 +145,7 @@ a:visited {
   #switch {
     display: none;
   }
-  .draggable {
+  . {
     display: none !important;
   }
 } */
