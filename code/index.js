@@ -18,20 +18,20 @@ $(document).ready(function() {
     // console.log(convertHtmlCollectionToArray(operands))
     // const arrayOfNumbers = Array.from(numbers);
     
-    convertHtmlCollectionToArray(numbers).map(function(currentValue, index, arr){
-      currentValue.addEventListener("click", function(){
-        if (entry.innerText.length < 15){
-          entry.innerText += currentValue.value
-        }else {alert("Only 15 digit is allowed")}
+    convertHtmlCollectionToArray(numbers).map(function(buttonValue, index, arr){
+      buttonValue.addEventListener("click", function(){
+        // if (entry.innerText.length < 15){
+          entry.innerText += buttonValue.value
+        // }else {alert("Only 15 digit is allowed")}
       });
     })
 
 
     convertHtmlCollectionToArray(operands).map(function(currentValue, index, arr){
       currentValue.addEventListener("click", function(){
-        if (entry.innerText.length < 15){
+        // if (entry.innerText.length < 15){
           entry.innerText += currentValue.value
-        }else {alert("Only 15 digit is allowed")}
+        // }else {alert("Only 15 digit is allowed")}
       });
     })
     

@@ -44,6 +44,9 @@ body {
   flex-grow: 1;
 }
 
+.screen {
+  overflow: hidden;
+}
 #entry {
   font-size: 30px;
 }
