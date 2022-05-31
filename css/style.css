@@ -46,6 +46,8 @@ body {
 
 .screen {
   overflow: hidden;
+  /* text-overflow: ellipsis; */
+  white-space: nowrap;
 }
 #entry {
   font-size: 30px;
@@ -120,6 +122,19 @@ button {
   cursor: pointer;
   font-size: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

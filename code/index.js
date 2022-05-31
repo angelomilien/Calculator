@@ -12,7 +12,7 @@ $(document).ready(function() {
     function convertHtmlCollectionToArray(collection) {
       return Array.from(collection)
     }
-    const entry = this.getElementById("entry")
+    const primaryScreen = this.getElementById("entry")
     const numbers = this.getElementsByClassName("num")
     const operands = this.getElementsByClassName("operator")
     // console.log(convertHtmlCollectionToArray(operands))
@@ -20,18 +20,15 @@ $(document).ready(function() {
     
     convertHtmlCollectionToArray(numbers).map(function(buttonValue, index, arr){
       buttonValue.addEventListener("click", function(){
-        // if (entry.innerText.length < 15){
-          entry.innerText += buttonValue.value
-        // }else {alert("Only 15 digit is allowed")}
+          primaryScreen.innerText += buttonValue.value
       });
     })
 
 
     convertHtmlCollectionToArray(operands).map(function(currentValue, index, arr){
       currentValue.addEventListener("click", function(){
-        // if (entry.innerText.length < 15){
-          entry.innerText += currentValue.value
-        // }else {alert("Only 15 digit is allowed")}
+          primaryScreen.innerText += currentValue.value
+          console.log(primaryScreen)
       });
     })
     
